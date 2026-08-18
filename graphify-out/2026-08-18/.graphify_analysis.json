@@ -1,6 +1,106 @@
 {
   "communities": {
     "0": [
+      "axios",
+      "class_variance_authority",
+      "clsx",
+      "date_fns",
+      "dnd_kit_core",
+      "dnd_kit_sortable",
+      "dnd_kit_utilities",
+      "dotenv",
+      "lucide_react",
+      "next",
+      "package_dependencies",
+      "package_dependencies_axios",
+      "package_dependencies_class_variance_authority",
+      "package_dependencies_clsx",
+      "package_dependencies_date_fns",
+      "package_dependencies_dnd_kit_core",
+      "package_dependencies_dnd_kit_sortable",
+      "package_dependencies_dnd_kit_utilities",
+      "package_dependencies_dotenv",
+      "package_dependencies_lucide_react",
+      "package_dependencies_next",
+      "package_dependencies_postgres",
+      "package_dependencies_react",
+      "package_dependencies_react_dom",
+      "package_dependencies_tailwind_merge",
+      "package_dependencies_tailwindcss_animate",
+      "package_dependencies_zod",
+      "package_dependencies_zustand",
+      "postgres",
+      "react",
+      "react_dom",
+      "tailwind_merge",
+      "tailwindcss_animate",
+      "zod",
+      "zustand"
+    ],
+    "1": [
+      "src_lib_api_client",
+      "src_lib_api_client_api",
+      "src_lib_api_client_apierror",
+      "src_lib_api_client_apierror_constructor",
+      "src_lib_api_client_axiosinstance",
+      "src_lib_fractional_index",
+      "src_lib_fractional_index_calculatenewposition",
+      "src_lib_fractional_index_needsrebalance",
+      "src_stores_board_store",
+      "src_stores_board_store_boardstate",
+      "src_stores_board_store_useboardstore",
+      "src_stores_workspace_store",
+      "src_stores_workspace_store_useworkspacestore",
+      "src_stores_workspace_store_workspacestate",
+      "src_types_database",
+      "src_types_database_activitylog",
+      "src_types_database_appnotification",
+      "src_types_database_board",
+      "src_types_database_boardcolumn",
+      "src_types_database_columncategory",
+      "src_types_database_fullboarddata",
+      "src_types_database_fullcolumn",
+      "src_types_database_fulltask",
+      "src_types_database_label",
+      "src_types_database_prioritylevel",
+      "src_types_database_task",
+      "src_types_database_taskchecklist",
+      "src_types_database_taskcomment",
+      "src_types_database_user",
+      "src_types_database_userpreferences",
+      "src_types_database_userrole",
+      "src_types_database_workspace",
+      "src_types_database_workspacemember",
+      "src_types_kanban",
+      "src_types_kanban_dragitem"
+    ],
+    "2": [
+      "src_app_api_activity_logs_route",
+      "src_app_api_activity_logs_route_get",
+      "src_app_api_boards_id_route",
+      "src_app_api_boards_id_route_get",
+      "src_app_api_boards_id_route_routecontext",
+      "src_app_api_columns_route",
+      "src_app_api_columns_route_post",
+      "src_app_api_labels_route",
+      "src_app_api_labels_route_get",
+      "src_app_api_tasks_id_move_route",
+      "src_app_api_tasks_id_move_route_patch",
+      "src_app_api_tasks_id_route",
+      "src_app_api_tasks_id_route_delete",
+      "src_app_api_tasks_id_route_patch",
+      "src_app_api_tasks_route",
+      "src_app_api_tasks_route_post",
+      "src_app_api_workspaces_route",
+      "src_app_api_workspaces_route_get",
+      "src_lib_api_response",
+      "src_lib_api_response_apierror",
+      "src_lib_api_response_apisuccess",
+      "src_lib_api_response_handleapierror",
+      "src_lib_db",
+      "src_lib_db_globalfordb"
+    ],
+    "3": [
       "ref_dom",
       "ref_dom_iterable",
       "ref_esnext",
@@ -21,28 +121,7 @@
       "tsconfig_compileroptions_strict",
       "tsconfig_compileroptions_target"
     ],
-    "1": [
-      "src_types_database",
-      "src_types_database_activitylog",
-      "src_types_database_appnotification",
-      "src_types_database_board",
-      "src_types_database_boardcolumn",
-      "src_types_database_columncategory",
-      "src_types_database_fullboarddata",
-      "src_types_database_fullcolumn",
-      "src_types_database_fulltask",
-      "src_types_database_label",
-      "src_types_database_prioritylevel",
-      "src_types_database_task",
-      "src_types_database_taskchecklist",
-      "src_types_database_taskcomment",
-      "src_types_database_user",
-      "src_types_database_userpreferences",
-      "src_types_database_userrole",
-      "src_types_database_workspace",
-      "src_types_database_workspacemember"
-    ],
-    "2": [
+    "4": [
       "package_devdependencies",
       "package_devdependencies_postcss",
       "package_devdependencies_tailwindcss",
@@ -57,7 +136,7 @@
       "types_react_dom",
       "typescript"
     ],
-    "3": [
+    "5": [
       "package",
       "package_name",
       "package_private",
@@ -71,7 +150,7 @@
       "package_type",
       "package_version"
     ],
-    "4": [
+    "6": [
       "ref_next_env_d_ts",
       "ref_next_types_ts",
       "ref_node_modules",
@@ -81,121 +160,205 @@
       "tsconfig_exclude",
       "tsconfig_include"
     ],
-    "5": [
-      "package_dependencies",
-      "package_dependencies_postgres",
-      "package_dependencies_tailwindcss_animate",
-      "postgres",
-      "tailwindcss_animate"
+    "7": [
+      "src_lib_date",
+      "src_lib_date_formatduedate",
+      "src_lib_date_formatrelativetime",
+      "src_lib_date_formatstandarddate"
     ],
-    "6": [
+    "8": [
+      "src_lib_utils",
+      "src_lib_utils_cn",
+      "src_lib_utils_getavatarinitials",
+      "src_lib_utils_getprioritymeta"
+    ],
+    "9": [
       "scripts_migrate",
       "scripts_migrate_runmigrations",
       "scripts_migrate_sql"
     ],
-    "7": [
+    "10": [
       "scripts_seed",
       "scripts_seed_seed",
       "scripts_seed_sql"
     ],
-    "8": [
+    "11": [
       "src_app_layout",
       "src_app_layout_metadata",
       "src_app_layout_rootlayout"
     ],
-    "9": [
-      "class_variance_authority",
-      "package_dependencies_class_variance_authority"
-    ],
-    "10": [
-      "clsx",
-      "package_dependencies_clsx"
-    ],
-    "11": [
-      "date_fns",
-      "package_dependencies_date_fns"
-    ],
     "12": [
-      "dnd_kit_core",
-      "package_dependencies_dnd_kit_core"
+      "src_components_ui_button",
+      "src_components_ui_button_button",
+      "src_components_ui_button_buttonprops"
     ],
     "13": [
-      "dnd_kit_sortable",
-      "package_dependencies_dnd_kit_sortable"
+      "src_components_ui_input",
+      "src_components_ui_input_input",
+      "src_components_ui_input_inputprops"
     ],
     "14": [
-      "dnd_kit_utilities",
-      "package_dependencies_dnd_kit_utilities"
+      "src_stores_ui_store",
+      "src_stores_ui_store_uistate",
+      "src_stores_ui_store_useuistore"
     ],
     "15": [
-      "dotenv",
-      "package_dependencies_dotenv"
-    ],
-    "16": [
-      "lucide_react",
-      "package_dependencies_lucide_react"
-    ],
-    "17": [
-      "next",
-      "package_dependencies_next"
-    ],
-    "18": [
       "next_config",
       "next_config_nextconfig"
     ],
-    "19": [
-      "package_dependencies_react",
-      "react"
-    ],
-    "20": [
-      "package_dependencies_react_dom",
-      "react_dom"
-    ],
-    "21": [
-      "package_dependencies_tailwind_merge",
-      "tailwind_merge"
-    ],
-    "22": [
-      "package_dependencies_zod",
-      "zod"
-    ],
-    "23": [
-      "package_dependencies_zustand",
-      "zustand"
-    ],
-    "24": [
+    "16": [
       "postcss_config",
       "postcss_config_config"
     ],
-    "25": [
+    "17": [
+      "src_app_dashboard_board_id_page",
+      "src_app_dashboard_board_id_page_boardpage"
+    ],
+    "18": [
+      "src_app_dashboard_layout",
+      "src_app_dashboard_layout_dashboardlayout"
+    ],
+    "19": [
+      "src_app_dashboard_my_tasks_page",
+      "src_app_dashboard_my_tasks_page_mytaskspage"
+    ],
+    "20": [
+      "src_app_dashboard_settings_page",
+      "src_app_dashboard_settings_page_settingspage"
+    ],
+    "21": [
       "src_app_page",
       "src_app_page_homepage"
     ],
+    "22": [
+      "src_components_kanban_board",
+      "src_components_kanban_board_board"
+    ],
+    "23": [
+      "src_components_kanban_card",
+      "src_components_kanban_card_card"
+    ],
+    "24": [
+      "src_components_kanban_column",
+      "src_components_kanban_column_column"
+    ],
+    "25": [
+      "src_components_kanban_columnmenu",
+      "src_components_kanban_columnmenu_columnmenu"
+    ],
     "26": [
-      "src_lib_db",
-      "src_lib_db_globalfordb"
+      "src_components_kanban_dragoverlaycard",
+      "src_components_kanban_dragoverlaycard_dragoverlaycard"
     ],
     "27": [
+      "src_components_kanban_filterbar",
+      "src_components_kanban_filterbar_filterbar"
+    ],
+    "28": [
+      "src_components_layout_header",
+      "src_components_layout_header_header"
+    ],
+    "29": [
+      "src_components_layout_sidebar",
+      "src_components_layout_sidebar_sidebar"
+    ],
+    "30": [
+      "src_components_layout_usernav",
+      "src_components_layout_usernav_usernav"
+    ],
+    "31": [
+      "src_components_layout_workspaceswitcher",
+      "src_components_layout_workspaceswitcher_workspaceswitcher"
+    ],
+    "32": [
+      "src_components_modals_commandpalette",
+      "src_components_modals_commandpalette_commandpalette"
+    ],
+    "33": [
+      "src_components_modals_createboardmodal",
+      "src_components_modals_createboardmodal_createboardmodal"
+    ],
+    "34": [
+      "src_components_modals_createtaskmodal",
+      "src_components_modals_createtaskmodal_createtaskmodal"
+    ],
+    "35": [
+      "src_components_modals_labelmanagermodal",
+      "src_components_modals_labelmanagermodal_labelmanagermodal"
+    ],
+    "36": [
+      "src_components_modals_taskdetaildrawer",
+      "src_components_modals_taskdetaildrawer_taskdetaildrawer"
+    ],
+    "37": [
+      "src_components_task_taskactivitytimeline",
+      "src_components_task_taskactivitytimeline_taskactivitytimeline"
+    ],
+    "38": [
+      "src_components_task_taskchecklistsection",
+      "src_components_task_taskchecklistsection_taskchecklistsection"
+    ],
+    "39": [
+      "src_components_task_taskcommentssection",
+      "src_components_task_taskcommentssection_taskcommentssection"
+    ],
+    "40": [
+      "src_components_task_taskdescriptioneditor",
+      "src_components_task_taskdescriptioneditor_taskdescriptioneditor"
+    ],
+    "41": [
+      "src_components_task_taskprioritypicker",
+      "src_components_task_taskprioritypicker_taskprioritypicker"
+    ],
+    "42": [
+      "src_components_ui_avatar",
+      "src_components_ui_avatar_avatar"
+    ],
+    "43": [
+      "src_components_ui_badge",
+      "src_components_ui_badge_badge"
+    ],
+    "44": [
+      "src_components_ui_dialog",
+      "src_components_ui_dialog_dialog"
+    ],
+    "45": [
+      "src_components_ui_skeleton",
+      "src_components_ui_skeleton_skeleton"
+    ],
+    "46": [
+      "src_hooks_usecommandmenu",
+      "src_hooks_usecommandmenu_usecommandmenu"
+    ],
+    "47": [
+      "src_hooks_usedebounce",
+      "src_hooks_usedebounce_usedebounce"
+    ],
+    "48": [
+      "src_hooks_uselocalstorage",
+      "src_hooks_uselocalstorage_uselocalstorage"
+    ],
+    "49": [
       "tailwind_config",
       "tailwind_config_config"
     ]
   },
   "cohesion": {
-    "0": 0.10526315789473684,
-    "1": 0.12280701754385964,
-    "2": 0.15384615384615385,
-    "3": 0.16666666666666666,
-    "4": 0.25,
-    "5": 0.4,
-    "6": 0.6666666666666666,
-    "7": 1.0,
-    "8": 0.6666666666666666,
-    "9": 1.0,
+    "0": 0.05714285714285714,
+    "1": 0.07563025210084033,
+    "2": 0.16304347826086957,
+    "3": 0.10526315789473684,
+    "4": 0.15384615384615385,
+    "5": 0.16666666666666666,
+    "6": 0.25,
+    "7": 0.5,
+    "8": 0.5,
+    "9": 0.6666666666666666,
     "10": 1.0,
-    "11": 1.0,
-    "12": 1.0,
-    "13": 1.0,
-    "14": 1.0,
+    "11": 0.6666666666666666,
+    "12": 0.6666666666666666,
+    "13": 0.6666666666666666,
+    "14": 0.6666666666666666,
     "15": 1.0,
     "16": 1.0,
     "17": 1.0,
@@ -208,9 +371,36 @@
     "24": 1.0,
     "25": 1.0,
     "26": 1.0,
-    "27": 1.0
+    "27": 1.0,
+    "28": 1.0,
+    "29": 1.0,
+    "30": 1.0,
+    "31": 1.0,
+    "32": 1.0,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 1.0,
+    "37": 1.0,
+    "38": 1.0,
+    "39": 1.0,
+    "40": 1.0,
+    "41": 1.0,
+    "42": 1.0,
+    "43": 1.0,
+    "44": 1.0,
+    "45": 1.0,
+    "46": 1.0,
+    "47": 1.0,
+    "48": 1.0,
+    "49": 1.0
   },
   "gods": [
+    {
+      "id": "src_lib_api_response_apisuccess",
+      "label": "apiSuccess()",
+      "degree": 18
+    },
     {
       "id": "tsconfig_compileroptions",
       "label": "compilerOptions",
@@ -227,42 +417,93 @@
       "degree": 5
     },
     {
+      "id": "src_types_database_fulltask",
+      "label": "FullTask",
+      "degree": 4
+    },
+    {
+      "id": "src_types_database_fullboarddata",
+      "label": "FullBoardData",
+      "degree": 4
+    },
+    {
       "id": "tsconfig_compileroptions_lib",
       "label": "lib",
       "degree": 4
     },
     {
-      "id": "package_dependencies_dnd_kit_core",
-      "label": "@dnd-kit/core",
-      "degree": 2
+      "id": "src_app_api_boards_id_route_get",
+      "label": "GET()",
+      "degree": 4
     },
     {
-      "id": "package_dependencies_dnd_kit_sortable",
-      "label": "@dnd-kit/sortable",
-      "degree": 2
+      "id": "src_lib_api_response_apierror",
+      "label": "apiError()",
+      "degree": 4
     },
     {
-      "id": "package_dependencies_dnd_kit_utilities",
-      "label": "@dnd-kit/utilities",
-      "degree": 2
-    },
-    {
-      "id": "package_dependencies_class_variance_authority",
-      "label": "class-variance-authority",
-      "degree": 2
-    },
-    {
-      "id": "package_dependencies_clsx",
-      "label": "clsx",
-      "degree": 2
-    },
-    {
-      "id": "package_dependencies_date_fns",
-      "label": "date-fns",
-      "degree": 2
+      "id": "src_lib_api_response_handleapierror",
+      "label": "handleApiError()",
+      "degree": 4
     }
   ],
-  "surprises": [],
+  "surprises": [
+    {
+      "source": "GET()",
+      "target": "apiSuccess()",
+      "source_files": [
+        "src/app/api/activity-logs/route.ts",
+        "src/lib/api-response.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `GET()` unexpectedly reaches hub `apiSuccess()`"
+    },
+    {
+      "source": "POST()",
+      "target": "apiSuccess()",
+      "source_files": [
+        "src/app/api/columns/route.ts",
+        "src/lib/api-response.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `POST()` unexpectedly reaches hub `apiSuccess()`"
+    },
+    {
+      "source": "GET()",
+      "target": "apiSuccess()",
+      "source_files": [
+        "src/app/api/labels/route.ts",
+        "src/lib/api-response.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `GET()` unexpectedly reaches hub `apiSuccess()`"
+    },
+    {
+      "source": "PATCH()",
+      "target": "apiSuccess()",
+      "source_files": [
+        "src/app/api/tasks/[id]/move/route.ts",
+        "src/lib/api-response.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `PATCH()` unexpectedly reaches hub `apiSuccess()`"
+    },
+    {
+      "source": "PATCH()",
+      "target": "apiSuccess()",
+      "source_files": [
+        "src/app/api/tasks/[id]/route.ts",
+        "src/lib/api-response.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `PATCH()` unexpectedly reaches hub `apiSuccess()`"
+    }
+  ],
   "tokens": {
     "input": 0,
     "output": 0
