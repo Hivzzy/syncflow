@@ -82,10 +82,10 @@
       "tsconfig_include"
     ],
     "5": [
-      "class_variance_authority",
       "package_dependencies",
-      "package_dependencies_class_variance_authority",
+      "package_dependencies_postgres",
       "package_dependencies_tailwindcss_animate",
+      "postgres",
       "tailwindcss_animate"
     ],
     "6": [
@@ -104,8 +104,8 @@
       "src_app_layout_rootlayout"
     ],
     "9": [
-      "package_dependencies_postgres",
-      "postgres"
+      "class_variance_authority",
+      "package_dependencies_class_variance_authority"
     ],
     "10": [
       "clsx",
@@ -263,31 +263,8 @@
     }
   ],
   "surprises": [],
-  "questions": [
-    {
-      "type": "bridge_node",
-      "question": "Why does `dependencies` connect `dependencies` to `package.json`, `postgres`, `clsx`, `date-fns`, `@dnd-kit/core`, `@dnd-kit/sortable`, `@dnd-kit/utilities`, `dotenv`, `lucide-react`, `next`, `react`, `react-dom`, `tailwind-merge`, `zod`, `zustand`?",
-      "why": "High betweenness centrality (0.173) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `devDependencies` connect `devDependencies` to `package.json`?",
-      "why": "High betweenness centrality (0.081) - this node is a cross-community bridge."
-    },
-    {
-      "type": "isolated_nodes",
-      "question": "What connects `nextConfig`, `name`, `version` to the rest of the system?",
-      "why": "72 weakly-connected nodes found - possible documentation gaps or missing edges."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `compilerOptions` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `database.ts` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.12280701754385964 - nodes in this community are weakly interconnected."
-    }
-  ]
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
 }

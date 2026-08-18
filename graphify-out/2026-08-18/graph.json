@@ -240,7 +240,7 @@
       "source_file": "package.json",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 5,
+      "community": 9,
       "norm_label": "class-variance-authority",
       "community_name": "dependencies",
       "id": "package_dependencies_class_variance_authority"
@@ -251,7 +251,7 @@
       "source_file": "package.json",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 5,
+      "community": 9,
       "norm_label": "class-variance-authority",
       "community_name": "dependencies",
       "id": "class_variance_authority"
@@ -372,7 +372,7 @@
       "source_file": "package.json",
       "source_location": "L24",
       "_origin": "ast",
-      "community": 9,
+      "community": 5,
       "norm_label": "postgres",
       "community_name": "postgres",
       "id": "package_dependencies_postgres"
@@ -383,7 +383,7 @@
       "source_file": "package.json",
       "source_location": "L24",
       "_origin": "ast",
-      "community": 9,
+      "community": 5,
       "norm_label": "postgres",
       "community_name": "postgres",
       "id": "postgres"
