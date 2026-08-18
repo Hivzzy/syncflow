@@ -82,9 +82,9 @@
       "tsconfig_include"
     ],
     "5": [
-      "dnd_kit_core",
+      "class_variance_authority",
       "package_dependencies",
-      "package_dependencies_dnd_kit_core",
+      "package_dependencies_class_variance_authority",
       "package_dependencies_tailwindcss_animate",
       "tailwindcss_animate"
     ],
@@ -104,8 +104,8 @@
       "src_app_layout_rootlayout"
     ],
     "9": [
-      "class_variance_authority",
-      "package_dependencies_class_variance_authority"
+      "dnd_kit_core",
+      "package_dependencies_dnd_kit_core"
     ],
     "10": [
       "clsx",
@@ -263,8 +263,31 @@
     }
   ],
   "surprises": [],
-  "tokens": {
-    "input": 0,
-    "output": 0
-  }
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `dependencies` connect `dependencies` to `package.json`, `@dnd-kit/core`, `clsx`, `date-fns`, `@dnd-kit/sortable`, `@dnd-kit/utilities`, `dotenv`, `lucide-react`, `next`, `postgres`, `react`, `react-dom`, `tailwind-merge`, `zod`, `zustand`?",
+      "why": "High betweenness centrality (0.173) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `devDependencies` connect `devDependencies` to `package.json`?",
+      "why": "High betweenness centrality (0.081) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `nextConfig`, `name`, `version` to the rest of the system?",
+      "why": "72 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `compilerOptions` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `database.ts` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.12280701754385964 - nodes in this community are weakly interconnected."
+    }
+  ]
 }
